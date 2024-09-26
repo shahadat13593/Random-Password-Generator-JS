@@ -2,7 +2,7 @@
 
 ## Overview
 This is a simple web application that generates strong and secure random passwords. The user can select the character types they want to include in the password (uppercase letters, lowercase letters, numbers, and symbols), as well as define the password length. The application also allows users to shuffle the generated password and clear the input fields.
-
+## Link: https://lively-druid-bf901c.netlify.app/
 ## Features
 - **Character Selection**: Choose from uppercase letters (ABC), lowercase letters (abc), numbers (123), and symbols (#$&).
 - **Password Length**: Customize the length of the password (minimum 6 characters).
