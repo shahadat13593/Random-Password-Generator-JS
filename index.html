@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="primary-heading">Random Password Generator</h1>
+      <p class="sub-heading">
+        Create strong and secure passwords to keep your account safe online.
+      </p>
+      <div class="main-choice-box">
+        <div class="choice-box">
+          <p class="choice-title password-length-title">Characters used:</p>
+          <div class="choice-inputs">
+            <div class="choice-input">
+              <input type="checkbox" class="input-c ABC" />
+              <p class="input-title password-length-title">ABC</p>
+            </div>
+            <div class="choice-input">
+              <input type="checkbox" class="input-c abc" />
+              <p class="input-title password-length-title">abc</p>
+            </div>
+            <div class="choice-input">
+              <input type="checkbox" class="input-c number" />
+              <p class="input-title password-length-title">123</p>
+            </div>
+            <div class="choice-input">
+              <input type="checkbox" class="input-c symbol" />
+              <p class="input-title password-length-title">#$&</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="password-box">
+        <img src="download.svg" alt="" class="svg-img" />
+        <div class="password-generator-box">
+          <div class="mini-box">
+            <p class="password-length-title">Password length:</p>
+            <input type="text" class="password-length" />
+          </div>
+          <button class="btn btn-generate">Generate</button>
+          <div class="mini-box">
+            <div class="password-container">
+              <input type="text" class="show-password" readonly />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"
+                />
+              </svg>
+            </div>
+          </div>
+          <button class="btn btn-clear">Clear</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
