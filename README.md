@@ -11,7 +11,7 @@ This is a simple web application that generates strong and secure random passwor
 - **Clear Input**: Clear the password and reset the input fields.
   
 ## Preview
-![Capture](https://github.com/user-attachments/assets/f1e4f39b-eeff-47c1-86fe-214906960aef)
+![Capture](https://github.com/user-attachments/assets/eb09ceca-7232-44d5-990b-c506608840dd)
 
 
 ## Technologies Used
